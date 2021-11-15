@@ -18,3 +18,6 @@ function findLongestWord(array) {
     return longest;
 }
 console.log(findLongestWord(["Batman", "Superman", "Wonder Woman", "The Flash", "Green Lantern"])) // output: Green Lantern
+console.log(findLongestWord(["Robin", "Starfire", "Raven", "Beast Boy", "Cyborg"])) // output: Beast Boy
+console.log(findLongestWord(["Wolverine", "Rogue", "Storm", "Cyclops", "Gambit", "Jean Grey", "Jubilee"])) // output: Wolverine
+console.log(findLongestWord(["Quartz", "Number", "Salmon", "Before"])) //output: Quartz
